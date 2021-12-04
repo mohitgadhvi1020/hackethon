@@ -1,0 +1,87 @@
+.box{
+
+  -webkit-box-shadow: 0 0 5px 2px #fff;
+    -moz-box-shadow: 0 0 5px 2px #fff;
+    box-shadow: 0 0 5px 2px #fff; 
+  padding: 5px;
+  border: 1px solid black;
+}
+
+
+  .space-align-block {
+    flex: none;
+    margin: 8px 4px;
+    padding: 4px;
+    border: 1px solid #40a9ff;
+  }
+  .space-align-block .mock-block {
+    display: inline-block;
+    padding: 32px 8px 16px;
+    background: rgba(150, 150, 150, 0.2);
+  }
+  .ant-modal-close{
+    display: none;
+  }
+  .selectEstrue{
+     background-color: black;
+     color: white;
+  }
+  .amount{
+    margin:  5px;
+  }
+  .time-duration{
+    margin : 5px ;
+  
+  }
+  .term {
+   margin : 5px;
+  font-weight: bold;
+  }
+  .check-box-handle{
+    margin-left : 15px ;
+  }
+.ant-btn {
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 20px;
+  margin-right: 130px;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  width: 50%;
+  border-radius: 20px;
+  color: rgba(0, 0, 0, 0.85);
+  border-color: #d9d9d9;
+  background: #fff;
+}
+
+.login-form {
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}
+.central{
+  margin-left: 40%;
+  margin-top: 10%;
+}
